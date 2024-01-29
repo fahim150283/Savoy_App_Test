@@ -16,7 +16,7 @@ import java.net.URL;
 public class BrowserUtils extends ReadJson {
     AndroidDriver  <WebElement> driver;
     public static String[] returnedarray = ReadJson.readJsonData();  //This is just to call the function to read the files.
-    // This is not gonna be used anywhere but the json data will be
+    // This is not gonna be used anywhere but the json data will be used
 
 
 
