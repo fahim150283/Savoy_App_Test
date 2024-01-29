@@ -19,8 +19,6 @@ public class BrowserUtils extends ReadJson {
     // This is not gonna be used anywhere but the json data will be used
 
 
-
-
     @Test
     public void setup(String name) throws MalformedURLException {
         String appname = "G:\\Abul Hossain Chowdhury\\Projects\\Savoy_App_Test\\src\\APK\\"+name;
