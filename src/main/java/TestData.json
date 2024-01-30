@@ -1,3 +1,13 @@
 {
-  "apk": "SavoyApp.apk"
+  "APK": {
+    "Name": "SavoyApp.apk"
+  },
+  "Login": {
+    "user_Fahim": "h.abul",
+    "user_Haseeb": "haseeb",
+    "user_Polash": "k.polash",
+    "user_Ashik": "a.islam",
+    "user_Siam": "mh.siam",
+    "password": "savoy123"
+  }
 }

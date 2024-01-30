@@ -20,7 +20,7 @@ public class BrowserUtils extends ReadJson {
 
 
     @Test
-    public void setup(String name) throws MalformedURLException {
+    public void SetupApp(String name) throws MalformedURLException, InterruptedException {
         String appname = "G:\\Abul Hossain Chowdhury\\Projects\\Savoy_App_Test\\src\\APK\\"+name;
         DesiredCapabilities DC = new DesiredCapabilities();
         DC.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
@@ -32,6 +32,7 @@ public class BrowserUtils extends ReadJson {
 
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
         driver = new AndroidDriver <WebElement> (url,DC);
+        Thread.sleep(2000);
     }
 
     public void Teardown(){

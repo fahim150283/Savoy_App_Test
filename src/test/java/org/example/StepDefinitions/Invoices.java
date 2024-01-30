@@ -9,9 +9,9 @@ import java.net.MalformedURLException;
 
 public class Invoices extends Page_Options {
     @Given("login for creating new app")
-    public void login_for_creating_new_app() throws MalformedURLException {
-        setup("SavoyApp.apk");
-        System.out.print(apk);
+    public void login_for_creating_new_app() throws MalformedURLException, InterruptedException {
+        SetupApp(APK);
+        Login(Users.user_Ashik,Users.password);
     }
     @When("create new  app")
     public void create_new_app() {
